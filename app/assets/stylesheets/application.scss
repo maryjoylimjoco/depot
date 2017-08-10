@@ -63,20 +63,19 @@ body, body > p, body > ol, body > ul, body > td {
       }
     }
   }
+}
+@media all and (max-width: 800px) {
+  #columns {
+    flex-direction: column-reverse;
+  }
+}
 
-  @media all and (max-width: 800px) {
-    #columns {
-      flex-direction: column-reverse;
-    }
+@media all and (max-width: 500px) {
+  #banner {
+    height: 1em;
   }
 
-  @media all and (max-width: 500px) {
-    #banner {
-      height: 1em;
-    }
-
-    &.title {
-      display: none;
-    }
+  #banner .title {
+    display: none;
   }
 }
