@@ -36,7 +36,7 @@ gem "haml-rails", "~> 0.9"
 
 group :test do
   gem 'capybara'
-  gem 'selenium-webdriver'
+  gem 'capybara-webkit'
 end
 
 group :development, :test do
@@ -44,6 +44,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
+  gem 'pry'
 end
 
 group :development do
