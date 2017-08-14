@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem "haml-rails", "~> 0.9"
+gem "jquery-rails"
+gem "jquery-ui-rails"
 
 group :test do
   gem 'capybara'
