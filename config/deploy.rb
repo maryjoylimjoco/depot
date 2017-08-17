@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-server '54.159.194.45', port: 7171, roles: [:web, :app, :db], primary: true
+server '54.159.194.45', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:maryjoylimjoco/depot.git'
 set :application,     'depot'
